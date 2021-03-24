@@ -1,0 +1,65 @@
+#background
+{
+	background-color:rgb(200,175,0);
+	background-image: url("/images/rv-icon-14.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 500px, 400px;
+} 
+#lastName 
+{
+	background-color: transparent;
+	width:60%;
+	
+}
+#firstName 
+{
+	background-color: transparent;
+	width:60%;
+}
+#userName 
+{
+	background-color: transparent;
+	width:60%;
+}
+.display-4, .lead
+{
+	text-align: center;
+}
+.title
+{
+	color: rgb(61,87,75);
+}
+#gap
+{
+	margin: 30px;
+	margin-left: 45px;
+	
+}
+.form-group
+{
+	margin-left: 40px;
+}
+
+.navbar-brand
+{
+	margin-left: 30px;
+	
+}
+	
+.grey
+{
+	color: rgb(243,96,43);
+	font-style: italic;
+}
+
+#color
+{
+	color: rgb(243,96,43);
+}
+
+
+
+
+

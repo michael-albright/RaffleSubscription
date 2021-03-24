@@ -1,0 +1,88 @@
+#background
+{
+	background-color:rgb(200,175,0);
+	background-image: url("/images/rv-icon-14.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 500px, 400px;
+}
+.display-4, .lead
+{
+	text-align: center;
+}
+.title
+{
+	color: rgb(61,87,75);
+}
+
+.jumbotron
+{
+	text-align: center;
+}
+
+.grey
+{
+	color: rgb(243,96,43);
+	font-style: italic;
+}
+
+.navbar-brand
+{
+	margin-left: 30px;
+}
+
+#color
+{
+	color: rgb(243,96,43);
+}
+
+#details
+{
+	color: rgb(208,250,248);
+	font-size: 35px;
+	background-color: transparent;
+	font-weight: bold;
+	border-width: 4px 4px 4px 2px;
+	text-decoration: underline;
+}
+.names
+{
+	font-size: 25px;
+	margin-top:15px;
+	
+}
+
+#align
+{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	color: rgb(208,250,248);
+	font-size: 25px;
+	
+	
+}
+
+#first
+{
+	background-color: transparent;
+	border-width: 2px 4px 4px 2px 
+	
+}
+
+#second
+{
+	background-color: transparent;
+	border-width: 2px 4px 4px 2px 
+	
+}
+
+#third
+{
+	background-color: transparent;
+	border-width: 2px 4px 4px 4px 
+	
+}
+
+.

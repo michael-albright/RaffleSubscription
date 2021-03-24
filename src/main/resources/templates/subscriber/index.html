@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html xmlns:th="htttp://www.thymeleaf.org">
+<head>
+<title>Subscriber List</title>
+
+<link href="/style-sheets/index-style-sheet.css" rel="stylesheet"
+	type="text/css">
+
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+	crossorigin="anonymous">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body id="background">
+
+	<div class="jumbotron">
+		<h1 class="display-4">
+			Welcome to <span class="title"> RambleOnLife!</span>
+		</h1>
+		<p class="lead">
+			You are just a few key strokes away from being entered into our next
+			<span class="grey">RAFFLE!!</span>
+		</p>
+		<hr class="my-4">
+
+	</div>
+	<form th:action="@{/}" th:object="${subscriber}" method="post">
+		<div class="form-group">
+			<label for="firstName">First Name</label> <input type="text"
+				th:field="*{firstName}" class="form-control" id="firstName">
+		</div>
+		<div class="form-group">
+			<label for="lastName">Last Name</label> <input type="text"
+				th:field="*{lastName}" class="form-control" id="lastName">
+		</div>
+		<div class="form-group">
+			<label for="userName">User Name</label> <input type="text"
+				th:field="*{userName}" class="form-control" id="userName">
+		</div>
+
+		<button id="gap" type="submit" class="btn btn-primary">Join
+			Raffle</button>
+	</form>
+		<nav class="navbar fixed-bottom navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand" href="#" id="color">RambleOnLife</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+			data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false"
+			aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Our Van</a></li>
+				<li class="nav-item"><a class="nav-link" href="#" tabindex="-1"
+					aria-disabled="true">Our Travels</a></li>
+				<li class="nav-item"><a class="nav-link" href="#" tabindex="-1"
+					aria-disabled="true">Future Raffles</a></li>
+			</ul>
+		</div>
+	</nav>
+</body>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+<script
+	src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+	integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
+	crossorigin="anonymous"></script>
+<script
+	src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+	integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
+	crossorigin="anonymous"></script>
+</html>
